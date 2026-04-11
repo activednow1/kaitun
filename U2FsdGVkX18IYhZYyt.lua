@@ -10,6 +10,7 @@ getgenv().sailorPieceConfig = {
     AUTO_FARM = { "IceQueenBoss", "ArenaFighter", "Ninja", "SlimeWarior", "Swordsman", "Quincy", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "AtomicBoss", "MoonSlayerBoss", "StrongestinHistoryBoss", "Gilgamesh", "RimuruBoss", "StrongestShinobiBoss" },  -- Auto farm ascend/quest/weapon bosses
     SUMMON_BOSS = { "Ice Queen Normal", "Gilgamesh Normal", "Moon Slayer Normal", "Ice Queen Normal", "Ice Queen Normal" },  -- Auto summon ascend/quest/weapon bosses
 
+
     -- Weapons
     EQUIP_WEAPON = {"Ice Queen", "Strongest Shinobi", "Moon Slayer", "Saber Alter", "Gilgamesh", "Strongest In History", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
     BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Gilgamesh", "Saber Alter", "Moon Slayer", "Strongest Shinobi", "Ice Queen"},
@@ -24,13 +25,29 @@ getgenv().sailorPieceConfig = {
       ["Gryphon"] = 6, 
       ["Dark Blade"] = 3 
     },
-    
+
     -- Reroll
-    REROLL_RACE_UNTIL = { "Kitsune" },
-    REROLL_CLAN_UNTIL = { "Monarch", "Eminence" },
+    REROLL_RACE_UNTIL = { "Luckborn", "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni", "Slime" },
+    REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper", "Frostbane" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
-    REROLL_STAT_UNTIL = { ["Damage"] = "Z", ["Defense"] = "Z", ["CooldownReduction"] = "Z", ["CritChance"] = "Z", ["CritDamage"] = "Z", ["DamageReduction"] = "Z", ["Luck"] = "Z" },
-    REROLL_PASSIVE_UNTIL = { ["Ichigo"] = { "Executioner", "Rampage" }, ["Strongest In History"] = { "Executioner", "Rampage" } },
+    REROLL_STAT_UNTIL = { 
+      ["Damage"] = "S", 
+      ["Defense"] = "S", 
+      ["CooldownReduction"] = "S", 
+      ["CritChance"] = "S", 
+      ["CritDamage"] = "S", 
+      ["DamageReduction"] = "S", 
+      ["Luck"] = "S" 
+    },
+    REROLL_PASSIVE_UNTIL = { 
+      ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" }, 
+      ["Strongest In History"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+      ["Gilgamesh"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+      ["Saber Alter"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+      ["Moon Slayer"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+      ["Strongest Shinobi"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+      ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+    },
     REROLL_POWER_UNTIL = { "Colossus" },
 
     -- Artifact
@@ -43,7 +60,7 @@ getgenv().sailorPieceConfig = {
     BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Cosmetic Crate", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest", "Aura Crate" },
 
     -- Autotrade
-    TRADE_USERNAME = { "petanimaximal14", "petanimaximal15", "petanimaximal17" },
+    TRADE_USERNAME = { "petanimaximal14", "petanimaximal15", "petanimaximal17", "petanimaximal18", "petanimaximal19", "petanimaximal120", "petanimaximal21", "petanimaximal22", "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },
     TRADE_ITEM = {
 
     "Race Reroll",
