@@ -27,8 +27,8 @@ getgenv().sailorPieceConfig = {
     },
 
     -- Reroll
-    REROLL_RACE_UNTIL = { "Luckborn", "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni", "Slime" },
-    REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper", "Frostbane" },
+    REROLL_RACE_UNTIL = { "Luckborn" },
+    REROLL_CLAN_UNTIL = { "Frostbane", "Monarch", "Eminence" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
     REROLL_STAT_UNTIL = { 
       ["Damage"] = "S", 
