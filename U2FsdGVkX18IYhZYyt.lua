@@ -31,13 +31,13 @@ getgenv().sailorPieceConfig = {
     REROLL_CLAN_UNTIL = { "Frostbane", "Monarch", "Eminence" },
     REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
     REROLL_STAT_UNTIL = { 
-      ["Damage"] = "S", 
+      ["Damage"] = "Z", 
       ["Defense"] = "S", 
       ["CooldownReduction"] = "S", 
       ["CritChance"] = "S", 
       ["CritDamage"] = "S", 
       ["DamageReduction"] = "S", 
-      ["Luck"] = "S" 
+      ["Luck"] = "Z" 
     },
     REROLL_PASSIVE_UNTIL = { 
       ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" }, 
