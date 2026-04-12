@@ -77,6 +77,8 @@ getgenv().sailorPieceConfig = {
 
     "Aura Crate",
 
+    "Iron",
+        
     "Cosmetic Crate",
 
     "Infinity Essence",
