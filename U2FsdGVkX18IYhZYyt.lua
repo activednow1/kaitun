@@ -4,7 +4,8 @@ setfpscap(10)
 getgenv().sailorPieceConfig = {  
     OPTIMIZATION = false,  -- true = optimize + show ui, false = disable ui
     AUTO_KICK = false,  -- Autokick if no TRADE_ITEM items left
-    TRADE_USERNAME = {},  -- "Username"
+
+    TRADE_USERNAME = { "petanimaximal14", "petanimaximal15", "petanimaximal17", "petanimaximal18", "petanimaximal19", "petanimaximal120", "petanimaximal21", "petanimaximal22", "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },  -- "Username"
     TRADE_ITEM = {
 
     "Race Reroll",
