@@ -89,7 +89,11 @@ getgenv().sailorPieceConfig = {
 
     "Golden Essence",
 
+    "Soul Amulet",
+
     "Phantasm Core",
+
+    "Energy Core",
 
     "Broken Sword",
 
@@ -100,6 +104,8 @@ getgenv().sailorPieceConfig = {
     "Yamato Essence",
 
     "Frozen Will",
+
+    "Conqueror Fragment",
 
     "Chrysalis Sigil",
 
