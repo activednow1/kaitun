@@ -8,167 +8,121 @@ getgenv().sailorPieceConfig = {
     TRADE_USERNAME = { "petanimaximal14", "petanimaximal15", "petanimaximal17", "petanimaximal18", "petanimaximal19", "petanimaximal120", "petanimaximal21", "petanimaximal22", "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },  -- "Username"
     TRADE_ITEM = {
 
-    "Race Reroll",
+    "Abyss Edge",
 
-    "Clan Reroll",
+    "Battle Shard",
 
-    "Trait Reroll",
-
-    "Haki Color Reroll",
-
-    "Mythical Chest",
-
-    "Secret Chest",
-
-    "Aura Crate",
-
-    "Iron",
-        
-    "Cosmetic Crate",
-
-    "Infinity Essence",
-
-    "Divine Grail",
-
-    "Throne Remnant",
-
-    "Ancient Shard",
-
-    "Golden Essence",
-
-    "Soul Amulet",
-
-    "Phantasm Core",
-
-    "Energy Core",
-
-    "Broken Sword",
-
-    "Azure Heart",
-
-    "Silent Storm",
-
-    "Yamato Essence",
-
-    "Frozen Will",
-
-    "Conqueror Fragment",
-
-    "Chrysalis Sigil",
-
-    "Evolution Fragment",
-
-    "Transcendent Core",
-
-    "Fusion Ring",
-
-    "Worthiness Fragment",
-
-    "Hogyoku Frag",
-
-    "Mirage Pendant",
-
-    "Illusion Prism",
-
-    "Reiatsu Core",
+    "Boss Key",
 
     "Boss Ticket",
 
-    "Upper Seal",
-
-    "Moon Crest",
-
-    "Crescent Shard",
-
-    "Lunar Essence",
-
-    "Demon Remnant",
-
-    "Abyss Sigil",
-
-    "Atomic Core",
-
-    "Atomic Omen",
-
-    "Eminence Essence",
-
-    "Shadow Remnant",
-
-    "Magic Shard",
-
-    "Void Seed",
-
-    "Rush Key",
-
-    "Umbral Capsule",
-
-    "Dungeon Ticket",
-
-    "Monarch Core",
-
-    "Monarch Essence",
-
-    "Kamish Dagger",
-
-    "Shadow Crystal",
-
-    "Abyss Edge",
-
-    "Dark Ring",
-
-    "Shadow Heart",
-
-    "Dark Grail",
-
-    "Corrupt Crown",
-
-    "Corruption Core",
-
-    "Alter Essence",
-
-    "Morgan Remnant",
+    "Broken Sword",
 
     "Cursed Finger",
 
-    "Dismantle Fang",
-
-    "Crimson Heart",
-
-    "Battle Sigil",
-
-    "Path Fragment",
-
-    "Eternal Core",
-
-    "Power Remnant",
-
-    "Tempest Relic",
-
-    "Slime Core",
-
-    "Calamity Seal",
-
-    "Boss Rush Ticket",
-
     "Dungeon Key",
 
-    "Tower Key",
+    "Flash Impact",
+        
+    "Illusion Prism",
 
-    "Boss Key",
+    "Limitless Ring",
+
+    "Mirage Pendant",
+
+    "Obsidian",
+
+    "Race Reroll",
+
+    "Soul Fragment",
+
+    "Trait Reroll",
+
+    "Umbral Capsule",
+
+    "Void Fragment",
+
+    "Worthiness Fragment",
+
+    "Abyss Sigil",
+
+    "Ancient Shard",
+
+    "Chrysalis Sigil",
+
+    "Clan Reroll",
+
+    "Dark Grail",
+
+    "Dark Ring",
+
+    "Dismantle Fang",
+
+    "Divine Grail",
+
+    "Frost Relic",
+
+    "Glacier Remnant",
+
+    "Golden Essence",
+
+    "Infinity Core",
+
+    "Mythril",
 
     "Passive Shard",
 
     "Power Shard",
 
+    "Reiatsu Core",
+
+    "Rush Key",
+
+    "Tempest Relic",
+
+    "Tower Key",
+
+    "Upper Seal",
+
+    "Void Seed",
+
+    "Adamantite",
+
+    "Atomic Core",
+
+    "Blood Ring",
+
+    "Crimson Heart",
+
+    "Diamond",
+
+    "Frozen Brand",
+
+    "Hōgyoku Fragment",
+
+    "Hogyoku Fragment",
+
+    "Ice Core",
+
     "Imperial Seal",
 
-    "Jade Tablet",
+    "Mythical Chest",
 
-    "Tide Remnant",
+    "Phantasm Core",
 
-    "Gale Essence",
+    "Shadow Heart",
 
-    "Frost Relic",
+    "Soul Flame",
+
+    "Transmutation Shard",
+
+    "Iron",
+
+    "Aura Crate",
+
+    "Cosmetic Crate",
+
+    "Secret Chest",
 
 },
 
