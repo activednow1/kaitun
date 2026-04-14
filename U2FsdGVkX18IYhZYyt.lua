@@ -3,11 +3,12 @@ setfpscap(30)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
-    ASCEND_UNTIL_LEVEL = 5,
+    ASCEND_UNTIL_LEVEL = 10,
     
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC19",
-    AUTO_FARM = { "IceQueenBoss", "ArenaFighter", "Ninja", "SlimeWarior", "Swordsman", "Quincy", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer", "AtomicBoss", "MoonSlayerBoss", "StrongestinHistoryBoss", "IchigoBoss", "RimuruBoss", "StrongestShinobiBoss", "TrueAizenBoss", "AizenBoss" },  -- Auto farm ascend/quest/weapon bosses
+    MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "Quincy", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer" },  -- Instant tp kill npc
+    AUTO_FARM = { "IceQueenBoss", "AtomicBoss", "MoonSlayerBoss", "StrongestinHistoryBoss", "IchigoBoss", "RimuruBoss", "StrongestShinobiBoss", "TrueAizenBoss", "AizenBoss" },  -- Auto farm ascend/quest/weapon bosses
     SUMMON_BOSS = { "Ice Queen Normal", "Gilgamesh Normal", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal" },  -- Auto summon ascend/quest/weapon bosses
 
 
