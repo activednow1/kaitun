@@ -8,7 +8,7 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC19",
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "Quincy", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer" },  -- Instant tp kill npc
-    AUTO_FARM = { "IceQueenBoss", "AtomicBoss", "MoonSlayerBoss",  "IchigoBoss", "RimuruBoss", "TrueAizenBoss", "AizenBoss" },  -- Auto farm ascend/quest/weapon bosses
+    AUTO_FARM = { "IceQueenBoss", "AtomicBoss", "MoonSlayerBoss",  "IchigoBoss",  "Ichigo Boss" "RimuruBoss", "TrueAizenBoss", "AizenBoss" },  -- Auto farm ascend/quest/weapon bosses
     SUMMON_BOSS = { "Ice Queen Normal", "Gilgamesh Normal", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal" },  -- Auto summon ascend/quest/weapon bosses
 
 
