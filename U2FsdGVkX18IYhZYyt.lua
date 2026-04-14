@@ -40,13 +40,13 @@ getgenv().sailorPieceConfig = {
       ["Luck"] = "Z" 
     },
     REROLL_PASSIVE_UNTIL = { 
-      ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" }, 
-      ["Strongest In History"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
-      ["Gilgamesh"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
-      ["Saber Alter"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
-      ["Moon Slayer"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
-      ["Strongest Shinobi"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
-      ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V" },
+        ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" }, 
+        ["Strongest In History"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
+        ["Gilgamesh"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
+        ["Saber Alter"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
+        ["Moon Slayer"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
+        ["Strongest Shinobi"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
+        ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage" },
     },
     REROLL_POWER_UNTIL = { "Colossus" },
 
