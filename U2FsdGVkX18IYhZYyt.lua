@@ -13,7 +13,7 @@ getgenv().sailorPieceConfig = {
 
 
     -- Weapons
-    EQUIP_WEAPON = {"Ice Queen", "Strongest Shinobi", "Moon Slayer", "Saber Alter", "Gilgamesh", "Strongest In History", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
+    EQUIP_WEAPON = {"Strongest In History", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
     BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Gilgamesh", "Saber Alter", "Moon Slayer", "Strongest Shinobi", "Ice Queen"},
     BLESS_WEAPON = { 
       ["Ice Queen"] = 10, 
