@@ -28,26 +28,22 @@ getgenv().sailorPieceConfig = {
     },
 
     -- Reroll
-    REROLL_RACE_UNTIL = { "Luckborn", "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni" },
-    REROLL_CLAN_UNTIL = { "Frostbane", "Monarch", "Eminence" },
-    REROLL_TRAIT_UNTIL = { "Overlord", "Cataclysm", "Singularity", "Celestial", "Emperor" },
+    REROLL_RACE_UNTIL = { "Luckborn" },
+    REROLL_CLAN_UNTIL = { "Eminence" },
+    REROLL_TRAIT_UNTIL = { "Emperor" },
     REROLL_STAT_UNTIL = { 
-      ["Damage"] = "Z", 
-      ["Defense"] = "S", 
-      ["CooldownReduction"] = "S", 
-      ["CritChance"] = "S", 
-      ["CritDamage"] = "S", 
-      ["DamageReduction"] = "S", 
-      ["Luck"] = "Z" 
+        ["Damage"] = "Z", 
+        ["Defense"] = "SS", 
+        ["CooldownReduction"] = "Z", 
+        ["CritChance"] = "SSS", 
+        ["CritDamage"] = "SSS", 
+        ["DamageReduction"] = "SS", 
+        ["Luck"] = "Z" 
     },
     REROLL_PASSIVE_UNTIL = { 
-        ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" }, 
-        ["Strongest In History"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
-        ["Gilgamesh"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
-        ["Saber Alter"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
-        ["Moon Slayer"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
-        ["Strongest Shinobi"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Berserker", "Damage IV", "Damage III" },
-        ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage" },
+        ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage" }, 
+        ["Strongest In History"] = { "Fortune Chosen" }, 
+        ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Damage IV" } 
     },
     REROLL_POWER_UNTIL = { "Colossus" },
 
