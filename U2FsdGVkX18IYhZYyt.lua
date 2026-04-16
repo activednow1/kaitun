@@ -3,7 +3,7 @@ setfpscap(30)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
-    ASCEND_UNTIL_LEVEL = 10,
+    ASCEND_UNTIL_LEVEL = 5,
     
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC19",
