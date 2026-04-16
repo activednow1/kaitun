@@ -8,8 +8,8 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC19",
     MULTI_FARM = { "ArenaFighter", "Ninja", "Swordsman", "Quincy", "AcademyTeacher", "Slime", "Curse", "StrongSorcerer" },  -- Instant tp kill npc
-    AUTO_FARM = { "JinwooBoss", "YujiBoss", "GojoBoss", "SukunaBoss", "AizenBoss", "SaberBoss", "QinShiBoss", "IchigoBoss", "GilgameshBoss", "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IceQueenBoss", "StrongestofTodayBoss", "StrongestinHistoryBoss", "RimuruBoss", "AnosBoss", "YamatoBoss", "TrueAizenBoss", "StrongestShinobiBoss", "AtomicBoss", "SoulReaperBoss", "Soul Reaper"  },  -- Auto farm ascend/quest/weapon bosses
-    SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Gilgamesh Normal", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal" },  -- Auto summon ascend/quest/weapon bosses
+    AUTO_FARM = { "JinwooBoss", "YujiBoss", "GojoBoss", "SukunaBoss", "AizenBoss", "SaberBoss", "QinShiBoss", "IchigoBoss", "GilgameshBoss", "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IceQueenBoss", "StrongestofTodayBoss", "StrongestinHistoryBoss", "RimuruBoss", "AnosBoss", "YamatoBoss", "TrueAizenBoss", "StrongestShinobiBoss", "AtomicBoss", "SoulReaperBoss", "Soul Reaper",  },  -- Auto farm ascend/quest/weapon bosses
+    SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Gilgamesh Normal", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Auto summon ascend/quest/weapon bosses
 
 
     -- Weapons
