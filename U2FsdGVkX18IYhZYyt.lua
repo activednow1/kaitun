@@ -9,6 +9,16 @@ getgenv().sailorPieceConfig = {
 
     "Abyss Edge",
 
+    "Boss Key",
+
+    "Boss Ticket",
+
+    "Dungeon Key",
+
+    "Rush Key",
+
+    "Tower Key",
+
     "Battle Shard",
 
     "Easter Egg",
@@ -32,7 +42,7 @@ getgenv().sailorPieceConfig = {
     "Fusion Ring",
 
     "Divinity Essence",
-    
+
     "Evolution Fragment",
 
     "Broken Sword",
@@ -40,7 +50,7 @@ getgenv().sailorPieceConfig = {
     "Cursed Finger",
 
     "Flash Impact",
-        
+
     "Illusion Prism",
 
     "Limitless Ring",
