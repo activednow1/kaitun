@@ -23,35 +23,13 @@ getgenv().sailorPieceConfig = {
 
     "Easter Egg",
 
-    "Lunar Essence", 
-
-    "Blue Singularity",
-
-    "Yamato Essence",
-
-    "Atomic Omen",
-
-    "Corrupt Crown",
-
-    "Corruption Core",
-
-    "Crescent Shard",
-
-    "Transcendent Core",
+    "Bloodline Stone", 
 
     "Fusion Ring",
 
-    "Divinity Essence",
-
-    "Evolution Fragment",
-
     "Easter Key",
 
-    "Azure Heart",
-
     "Magic Shard",
-
-    "Path Fragment",
 
     "Broken Sword",
 
