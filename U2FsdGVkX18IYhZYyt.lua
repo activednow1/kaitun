@@ -7,33 +7,27 @@ getgenv().sailorPieceConfig = {
    TRADE_USERNAME = { "petanimaximal14", "petanimaximal15", "petanimaximal17", "petanimaximal18", "petanimaximal19", "petanimaximal120", "petanimaximal21", "petanimaximal22", "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },  -- "Username"
     TRADE_ITEM = {
 
+    "Aura Crate",
+
+    "Cosmetic Crate",
+
+    "Secret Chest",
+
     "Abyss Edge",
+
+    "Battle Shard",
 
     "Boss Key",
 
     "Boss Ticket",
 
-    "Dungeon Key",
-
-    "Rush Key",
-
-    "Tower Key",
-
-    "Battle Shard",
-
-    "Easter Egg",
-
-    "Bloodline Stone", 
-
-    "Fusion Ring",
-
-    "Easter Key",
-
-    "Magic Shard",
-
     "Broken Sword",
 
-    "Cursed Finger",
+    "Cursed Finger", 
+
+    "Dungeon Key",
+
+    "Easter Egg",
 
     "Flash Impact",
 
@@ -61,77 +55,105 @@ getgenv().sailorPieceConfig = {
 
     "Ancient Shard",
 
+    "Bloodline Stone",
+
     "Chrysalis Sigil",
 
     "Clan Reroll",
 
-    "Dark Grail",
-
-    "Dark Ring",
-
-    "Dismantle Fang",
-
-    "Divine Grail",
-
-    "Frost Relic",
+    "Golden Essence",
 
     "Glacier Remnant",
 
-    "Golden Essence",
+    "Frost Relic",
 
-    "Infinity Core",
+    "Easter Key",
 
-    "Mythril",
+    "Divine Grail",
 
-    "Passive Shard",
+    "Dismantle Fang",
 
-    "Power Shard",
+    "Dark Ring",
 
-    "Reiatsu Core",
+    "Dark Grail",
+
+    "Tower Key",
 
     "Tempest Relic",
 
-    "Upper Seal",
+    "Rush Key",
 
-    "Void Seed",
+    "Reiatsu Core",
 
-    "Adamantite",
+    "Power Shard",
 
-    "Atomic Core",
+    "Passive Shard",
 
-    "Blood Ring",
+    "Mythril",
 
-    "Crimson Heart",
+    "Infinity Core",
+
+    "Frozen Brand",
 
     "Diamond",
 
-    "Frozen Brand",
+    "Crimson Heart",
+
+    "Blood Ring",
+
+    "Atomic Core",
+
+    "Adamantite",
+
+    "Void Seed",
+
+    "Upper Seal",
+
+    "Transmutation Shard",
+
+    "Soul Flame",
+
+    "Shadow Heart",
+
+    "Phantasm Core",
+
+    "Mythical Chest",
+
+    "Imperial Seal",
+
+    "Ice Core",
 
     "Hōgyoku Fragment",
 
     "Hogyoku Fragment",
 
-    "Ice Core",
+    "X",
 
-    "Imperial Seal",
+    "Azure Heart",
 
-    "Mythical Chest",
+    "Corruption Core",
 
-    "Phantasm Core",
+    "Corrupt Crown",
 
-    "Shadow Heart",
+    "Magic Shard",
 
-    "Soul Flame",
+    "Fusion Ring",
 
-    "Transmutation Shard",
+    "Aero Core",
 
-    "Iron",
+    "Atomic Omen",
 
-    "Aura Crate",
+    "Divinity Essence",
 
-    "Cosmetic Crate",
+    "Lunar Essence",
 
-    "Secret Chest",
+    "Fusion Ring",
+
+    "Evolution Fragment",
+
+    "Transcendent Core",
+
+    "X",
 
 },
 
