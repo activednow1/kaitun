@@ -127,7 +127,7 @@ getgenv().sailorPieceConfig = {
 
     "Hogyoku Fragment",
 
-    "X",
+    "XX",
 
     "Azure Heart",
 
