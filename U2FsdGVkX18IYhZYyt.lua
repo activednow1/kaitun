@@ -39,8 +39,6 @@ getgenv().sailorPieceConfig = {
 
     "Soul Fragment",
 
-    "Trait Reroll",
-
     "Umbral Capsule",
 
     "Void Fragment",
@@ -149,7 +147,7 @@ getgenv().sailorPieceConfig = {
 
     "Transcendent Core",
 
-    "X",
+    "Crescent Shard",
 
 },
 
