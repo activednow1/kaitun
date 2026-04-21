@@ -37,8 +37,6 @@ getgenv().sailorPieceConfig = {
 
     "Mirage Pendant",
 
-    "Race Reroll",
-
     "Soul Fragment",
 
     "Trait Reroll",
