@@ -13,7 +13,7 @@ getgenv().sailorPieceConfig = {
     -- MULTI_FARM -> Instant tp kill npc
     MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
-    AUTO_FARM = { "IchigoBoss", "IceQueenBoss" },  -- Auto farm ascend/quest/weapon bosses 
+    AUTO_FARM = { "IchigoBoss", "IceQueenBoss", "The World Boss", "Cosmic Being Boss" },  -- Auto farm ascend/quest/weapon bosses 
     SUMMON_BOSS = { "Ichigo Normal", "Ice Queen Normal" },  -- Auto summon ascend/quest/weapon bosses
     
     -- Weapons
