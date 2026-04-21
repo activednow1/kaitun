@@ -37,8 +37,6 @@ getgenv().sailorPieceConfig = {
 
     "Mirage Pendant",
 
-    "X",
-
     "Race Reroll",
 
     "Soul Fragment",
@@ -127,7 +125,7 @@ getgenv().sailorPieceConfig = {
 
     "Hogyoku Fragment",
 
-    "XX",
+    "X",
 
     "Azure Heart",
 
