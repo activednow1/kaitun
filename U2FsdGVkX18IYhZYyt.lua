@@ -1,25 +1,26 @@
-script_key="TNKqRPVddeXbUfXarbqmEKcjEsrgfNYh";
-setfpscap(30)
+script_key="";
+setfpscap(10)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
-    WORLD = "Sea 1",  -- "Sea 1", "Sea 2"
+    WORLD = "Sea 2",  -- "Sea 1", "Sea 2"
     ASCEND_UNTIL_LEVEL = 10,
     AUTO_CELESTIAL_FAVOR_TITLE = true, -- Auto attack 5000 island bosses
     AUTO_BOSS_RUSH_AND_INFINITE_TOWER_STAT_BONUS = false,
     
     -- Autofarm
-    DO_REPEATABLE_QUEST = "QuestNPC19",
-    -- MULTI_FARM -> Instant tp kill npc (Must have Strongest In History/Ichigo/Gryphon)
-    MULTI_FARM = { "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
+    DO_REPEATABLE_QUEST = "QuestNPC23",
+    -- MULTI_FARM -> Instant tp kill npc
+    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
+    -- Ascend/Quest/Weapon Requirements will auto summon + attack
     AUTO_FARM = { "IchigoBoss" },  -- Auto farm ascend/quest/weapon bosses 
     SUMMON_BOSS = { "Ichigo Normal" },  -- Auto summon ascend/quest/weapon bosses
     
     -- Weapons
-    -- Script will auto equip (Ice Queen + Damage) build for dungeon/inf tower
-    EQUIP_WEAPON = {"Strongest In History", "Ichigo", "Gryphon", "Dark Blade", "Katana"},
-    BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Ice Queen"},
-    BLESS_WEAPON = { ["Ice Queen"] = 10, ["Strongest In History"] = 10, ["Ichigo"] = 6, ["Gryphon"] = 6, ["Dark Blade"] = 3 },
+    -- Auto detect + equip BEST DPS Weapon + Damage Build for dungeon/inf tower/high hp bosses
+    -- Auto detect + equip BEST AOE Weapon for MULTI_FARM (Fast Farming)
+    BUY_WEAPON = {"Katana", "Dark Blade", "Gryphon", "Ichigo", "Strongest In History", "Ice Queen", "The World", "Cosmic Being"},
+    BLESS_WEAPON = { ["Cosmic Being"] = 10, ["The World"] = 10, ["Ice Queen"] = 10, ["Strongest In History"] = 10, ["Ichigo"] = 6, ["Gryphon"] = 6, ["Dark Blade"] = 3 },
 
     -- Reroll
     REROLL_RACE_UNTIL = { "Luckborn" },
@@ -35,12 +36,14 @@ getgenv().sailorPieceConfig = {
         ["Luck"] = "Z" 
     },
     REROLL_PASSIVE_UNTIL = { 
+        ["Cosmic Being"] = { "Fortune Chosen", "Executioner", "Rampage" }, 
+        ["The World"] = { "Fortune Chosen", "Executioner", "Rampage" }, 
         ["Ice Queen"] = { "Fortune Chosen", "Executioner", "Rampage" }, 
         ["Strongest In History"] = { "Fortune Chosen" }, 
         ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Damage IV" } 
     },
     REROLL_POWER_UNTIL = { "Subjugator" },
-    REROLL_BLOODLINE_UNTIL = { "Cosmic" },
+    REROLL_BLOODLINE_UNTIL = { "Primordial" },
 
     -- Artifact
     DELETE_ARTIFACT_RARITY = { "Common" },
@@ -48,8 +51,8 @@ getgenv().sailorPieceConfig = {
 
     -- Misc
     BUILD_MODE = "Luck",  -- Damage/Luck
-    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)", "Mythical Chest" },
-    BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Cosmetic Crate", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest", "Aura Crate" },
+    USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
+    BUY_MERCHANT = { "Race Reroll", "Trait Reroll", "Clan Reroll", "Passive Shard", "Boss Key", "Dungeon Key", "Rush Key", "Boss Ticket", "Haki Color Reroll", "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Mythical Chest", "Secret Chest" },
 
     -- Autotrade
     TRADE_USERNAME = {},
