@@ -13,29 +13,11 @@ getgenv().sailorPieceConfig = {
 
     "Secret Chest",
 
-    "Abyss Edge",
-
     "Battle Shard",
-
-    "Boss Key",
-
-    "Boss Ticket",
-
-    "Broken Sword",
-
-    "Cursed Finger", 
-
-    "Dungeon Key",
 
     "Easter Egg",
 
-    "Flash Impact",
-
-    "Illusion Prism",
-
-    "Limitless Ring",
-
-    "Mirage Pendant",
+    "Bloodline Stone",
 
     "Soul Fragment",
 
@@ -49,29 +31,15 @@ getgenv().sailorPieceConfig = {
 
     "Ancient Shard",
 
-    "Bloodline Stone",
-
     "Chrysalis Sigil",
 
     "Clan Reroll",
-
-    "Golden Essence",
-
-    "Glacier Remnant",
-
-    "Frost Relic",
 
     "Easter Key",
 
     "Divine Grail",
 
-    "Dismantle Fang",
-
-    "Dark Ring",
-
     "Dark Grail",
-
-    "Tower Key",
 
     "Tempest Relic",
 
@@ -85,10 +53,6 @@ getgenv().sailorPieceConfig = {
 
     "Mythril",
 
-    "Infinity Core",
-
-    "Frozen Brand",
-
     "Diamond",
 
     "Crimson Heart",
@@ -98,12 +62,6 @@ getgenv().sailorPieceConfig = {
     "Atomic Core",
 
     "Adamantite",
-
-    "Void Seed",
-
-    "Upper Seal",
-
-    "Transmutation Shard",
 
     "Soul Flame",
 
@@ -199,7 +157,6 @@ getgenv().sailorPieceConfig = {
 
     "Power Remnant",
 
-    "X",
 
 },
 
