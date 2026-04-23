@@ -37,13 +37,7 @@ getgenv().sailorPieceConfig = {
 
     "Mirage Pendant",
 
-    "X",
-
-    "X",
-
     "Soul Fragment",
-
-    "X",
 
     "Umbral Capsule",
 
@@ -127,8 +121,6 @@ getgenv().sailorPieceConfig = {
 
     "Hogyoku Fragment",
 
-    "X",
-
     "Azure Heart",
 
     "Corruption Core",
@@ -191,8 +183,6 @@ getgenv().sailorPieceConfig = {
 
     "Gale Essence",
 
-    "X",
-
     "Eternal Core",
 
     "Spiritual Core",
@@ -205,15 +195,11 @@ getgenv().sailorPieceConfig = {
 
     "Slime Core",
 
-    "X",
-
     "Tide Remnant",
 
     "Power Remnant",
 
     "X",
-
-    "Battle Sigil",
 
 },
 
