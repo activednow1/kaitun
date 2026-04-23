@@ -205,7 +205,7 @@ getgenv().sailorPieceConfig = {
 
     "Slime Core",
 
-    "Slime Remnant",
+    "X",
 
     "Tide Remnant",
 
