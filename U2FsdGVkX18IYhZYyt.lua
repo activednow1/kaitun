@@ -133,8 +133,6 @@ getgenv().sailorPieceConfig = {
 
     "Spiritual Core",
 
-    "Alter Essence",
-
     "Demon Remnant",
 
     "Throne Remnant",
