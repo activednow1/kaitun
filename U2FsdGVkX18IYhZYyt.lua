@@ -39,11 +39,11 @@ getgenv().sailorPieceConfig = {
 
     "X",
 
-    "Race Reroll",
+    "X",
 
     "Soul Fragment",
 
-    "Trait Reroll",
+    "X",
 
     "Umbral Capsule",
 
