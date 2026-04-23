@@ -19,8 +19,6 @@ getgenv().sailorPieceConfig = {
 
     "Bloodline Stone",
 
-    "Soul Fragment",
-
     "Umbral Capsule",
 
     "Void Fragment",
@@ -28,10 +26,6 @@ getgenv().sailorPieceConfig = {
     "Worthiness Fragment",
 
     "Abyss Sigil",
-
-    "Ancient Shard",
-
-    "Chrysalis Sigil",
 
     "Clan Reroll",
 
@@ -43,15 +37,11 @@ getgenv().sailorPieceConfig = {
 
     "Tempest Relic",
 
-    "Rush Key",
-
     "Reiatsu Core",
 
     "Power Shard",
 
     "Passive Shard",
-
-    "Mythril",
 
     "Diamond",
 
@@ -88,8 +78,6 @@ getgenv().sailorPieceConfig = {
     "Magic Shard",
 
     "Fusion Ring",
-
-    "Aero Core",
 
     "Atomic Omen",
 
