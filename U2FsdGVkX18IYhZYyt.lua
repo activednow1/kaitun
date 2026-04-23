@@ -211,7 +211,7 @@ getgenv().sailorPieceConfig = {
 
     "Power Remnant",
 
-    "Six Eye",
+    "X",
 
     "Battle Sigil",
 
