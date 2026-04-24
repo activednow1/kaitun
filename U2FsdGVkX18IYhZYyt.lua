@@ -11,10 +11,10 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC23",
     -- MULTI_FARM -> Instant tp kill npc
-    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher" },  
+    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
-    AUTO_FARM = { "IchigoBoss", "IceQueenBoss", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Auto farm ascend/quest/weapon bosses 
-    SUMMON_BOSS = { "Ichigo Normal", "Ice Queen Normal" },  -- Auto summon ascend/quest/weapon bosses
+    AUTO_FARM = { "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Npc names
+    SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Boss npc names
     
     -- Weapons
     -- Auto detect + equip BEST DPS Weapon + Damage Build for dungeon/inf tower/high hp bosses
@@ -60,7 +60,7 @@ getgenv().sailorPieceConfig = {
     
     -- Discord
     WEBHOOK_ITEM_NAME = { "Aura Crate", "Cosmetic Crate", "Secret Chest" },
-    WEBHOOK_URL = "https://discordapp.com/api/webhooks/1491133044751466568/AFqJC6CFIH1Lc96BUCrsXOuyqTsG5a-syDa9fx1bsc4FH9h01rdG81SlOk5drg3rCmDH",
+    WEBHOOK_URL = "",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
     SHOW_PUBLIC_DISCORD_ID = true,
