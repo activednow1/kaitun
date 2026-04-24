@@ -13,7 +13,7 @@ getgenv().sailorPieceConfig = {
     -- MULTI_FARM -> Instant tp kill npc
     MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
-    AUTO_FARM = { "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss", "JinwooBoss", "YujiBoss", "GojoBoss", "SukunaBoss", "AizenBoss", "SaberBoss", "QinShiBoss", "IchigoBoss", "GilgameshBoss", "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IceQueenBoss", "StrongestofTodayBoss", "StrongestinHistoryBoss", "RimuruBoss", "AnosBoss", "YamatoBoss", "TrueAizenBoss", "StrongestShinobiBoss", "AtomicBoss", "SoulReaperBoss", "Soul Reaper",  },  -- Auto farm ascend/quest/weapon bosses
+    AUTO_FARM = { "IchigoBoss", "IceQueenBoss", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Auto farm ascend/quest/weapon bosses 
     SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Auto summon ascend/quest/weapon bosses
     
     -- Weapons
