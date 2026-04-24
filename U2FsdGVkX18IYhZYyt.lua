@@ -11,10 +11,10 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC23",
     -- MULTI_FARM -> Instant tp kill npc
-    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer" },  
+    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
     AUTO_FARM = { "IchigoBoss", "IceQueenBoss", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Auto farm ascend/quest/weapon bosses 
-    SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Auto summon ascend/quest/weapon bosses
+    SUMMON_BOSS = { "Ichigo Normal", "Ice Queen Normal" },  -- Auto summon ascend/quest/weapon bosses
     
     -- Weapons
     -- Auto detect + equip BEST DPS Weapon + Damage Build for dungeon/inf tower/high hp bosses
