@@ -6,7 +6,7 @@ getgenv().sailorPieceConfig = {
     AUTO_KICK = true,  -- Autokick if no TRADE_ITEM items left
     KICK_IF_NO_TRADE_USERNAME = false,
     TRADE_SEA_1 = true,
-   TRADE_USERNAME = { "petanimaximal30", "petanimaximal31", "petanimaximal32", "petanimaximal33", "petanimaximal34", "petanimaximal35" },  -- "Username"
+   TRADE_USERNAME = { "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },  -- "Username"
     TRADE_ITEM = {
 
     "Aura Crate",
@@ -15,111 +15,57 @@ getgenv().sailorPieceConfig = {
 
     "Secret Chest",
 
+    "Limitless Ring",
+
     "Battle Shard",
 
-    "Broken Sword",
+    "Cosmic Essence",
 
     "Cursed Finger", 
 
-    "Easter Egg",
+    "Power Fragment",
 
-    "Limitless Ring",
-
-    "Mirage Pendant",
-
-    "Soul Fragment",
+    "Void Fragment",
 
     "Worthiness Fragment",
 
     "Abyss Sigil",
 
-    "Ancient Shard",
+    "Alter Essence",
+
+    "Battle Sigil",
 
     "Bloodline Stone",
+
+    "Easter Egg",
 
     "Chrysalis Sigil",
 
     "Clan Reroll",
 
-    "Golden Essence",
-
-    "Glacier Remnant",
-
-    "Frost Relic",
-
-    "Easter Key",
-
-    "Divine Grail",
-
-    "Dismantle Fang",
+    "Dark Grail",
 
     "Dark Ring",
 
-    "Dark Grail",
+    "Divine Grail",
 
-    "Tempest Relic",
+    "Dominion Brand",
 
-    "Reiatsu Core",
+    "Easter Key",
 
-    "Power Shard",
-
-    "Passive Shard",
-
-    "Infinity Core",
-
-    "Frozen Brand",
-
-    "Diamond",
-
-    "Crimson Heart",
-
-    "Blood Ring",
-
-    "Atomic Core",
-
-    "Adamantite",
-
-    "Upper Seal",
-
-    "Transmutation Shard",
-
-    "Soul Flame",
-
-    "Shadow Heart",
-
-    "Phantasm Core",
-
-    "Mythical Chest",
-
-    "Imperial Seal",
-
-    "Ice Core",
-
-    "Azure Heart",
-
-    "Corruption Core",
-
-    "Corrupt Crown",
-
-    "Magic Shard",
+    "Frost Relic",
 
     "Fusion Ring",
 
-    "Aero Core",
+    "Glacier Remnant",
 
-    "Atomic Omen",
-
-    "Divinity Essence",
+    "Golden Essence",
 
     "Lunar Essence",
 
-    "Fusion Ring",
+    "Passive Shard",
 
-    "Evolution Fragment",
-
-    "Transcendent Core",
-
-    "Cosmic Essence",
+    "Power Shard",
 
     "Relic Part #1",
 
@@ -139,11 +85,47 @@ getgenv().sailorPieceConfig = {
 
     "Star Mark",
 
+    "Tempest Relic",
+
     "Time Remnant",
+
+    "Upper Seal",
+
+    "Void Seed",
+
+    "Yamato Essence",
+
+    "Adamantite",
+
+    "Atomic Core",
+
+    "Blood Ring",
+
+    "Corruption Core",
+
+    "Corrupt Crown",
+
+    "Crescent Shard",
+
+    "Diamond",
+
+    "Frozen Brand",
 
     "Galaxy Shard",
 
+    "Ice Core",
+
+    "Imperial Seal",
+
     "Monster Pulse",
+
+    "Mythical Chest",
+
+    "Phantasm Core",
+
+    "Shadow Heart",
+
+    "Transmutation Shard",
 
     "Vampire Omen",
 
@@ -151,43 +133,19 @@ getgenv().sailorPieceConfig = {
 
     "Guild Key",
 
-    "Power Fragment",
-
-    "Dominion Brand",
-
-    "Gale Essence",
-
-    "Eternal Core",
-
-    "Spiritual Core",
-
-    "Alter Essence",
-
-    "Demon Remnant",
-
     "Throne Remnant",
 
-    "Spell Echo",
+    "Evolution Fragment",
 
-    "Slime Core",
+    "Transcendent Core",
 
-    "Slime Remnant",
+    "Divinity Essence",
 
-    "Tide Remnant",
+    "Magic Shard",
 
-    "Shadow Essence",
+    "Frozen Will",
 
-    "Shadow Remnant",
-
-    "Yamato Essence",
-
-    "Crescent Shard",
-
-    "Moon Crest",
-
-    "Power Remnant",
-
-    "Battle Sigil",
+    "Atomic Omen",
 
 },
 
