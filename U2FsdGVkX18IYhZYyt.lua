@@ -15,8 +15,6 @@ getgenv().sailorPieceConfig = {
 
     "Secret Chest",
 
-    "Abyss Edge",
-
     "Battle Shard",
 
     "Broken Sword",
@@ -25,19 +23,11 @@ getgenv().sailorPieceConfig = {
 
     "Easter Egg",
 
-    "Flash Impact",
-
-    "Illusion Prism",
-
     "Limitless Ring",
 
     "Mirage Pendant",
 
     "Soul Fragment",
-
-    "Umbral Capsule",
-
-    "Void Fragment",
 
     "Worthiness Fragment",
 
@@ -88,8 +78,6 @@ getgenv().sailorPieceConfig = {
     "Atomic Core",
 
     "Adamantite",
-
-    "Void Seed",
 
     "Upper Seal",
 
@@ -192,8 +180,6 @@ getgenv().sailorPieceConfig = {
     "Shadow Remnant",
 
     "Yamato Essence",
-
-    "Eminence Essence",
 
     "Crescent Shard",
 
