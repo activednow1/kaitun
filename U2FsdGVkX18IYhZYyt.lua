@@ -143,8 +143,6 @@ getgenv().sailorPieceConfig = {
 
     "Magic Shard",
 
-    "Frozen Will",
-
     "Atomic Omen",
 
 },
