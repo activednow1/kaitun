@@ -6,7 +6,7 @@ getgenv().sailorPieceConfig = {
     AUTO_KICK = true,  -- Autokick if no TRADE_ITEM items left
     KICK_IF_NO_TRADE_USERNAME = false,
     TRADE_SEA_1 = true,
-   TRADE_USERNAME = { "petanimaximal23", "petanimaximal24", "petanimaximal25", "petanimaximal26", "petanimaximal27", "petanimaximal28" },  -- "Username"
+   TRADE_USERNAME = { "petanimaximal30", "petanimaximal31", "petanimaximal32", "petanimaximal33", "petanimaximal34", "petanimaximal35" },  -- "Username"
     TRADE_ITEM = {
 
     "Aura Crate",
