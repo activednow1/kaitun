@@ -12,7 +12,7 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC23",
     -- MULTI_FARM -> Instant tp kill npc (Must have Strongest In History/Ichigo/Gryphon)
-    MULTI_FARM = { "Bunny", "Quincy", "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
+    MULTI_FARM = { "Bunny", "Quincy", "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", },  
     AUTO_FARM = { "Great Mage Boss", "Cosmic Being", "The World Boss", "True Manipulator Boss", "Strongest Shinobi Boss", "Corrupted Knight Boss", "Yamato", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Auto farm ascend/quest/weapon bosses 
     SUMMON_BOSS = { "Ice Queen Normal", "Soul Reaper Normal", "Soul Reaper", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Auto summon ascend/quest/weapon bosses
  
