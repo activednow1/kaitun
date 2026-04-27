@@ -24,6 +24,8 @@ getgenv().sailorPieceConfig = {
     REROLL_RACE_UNTIL = { "Luckborn" },
     REROLL_CLAN_UNTIL = { "Eminence" },
     REROLL_TRAIT_UNTIL = { "Emperor" },
+    REROLL_POWER_UNTIL = { "Subjugator" },
+    REROLL_BLOODLINE_UNTIL = { "Primordial" },
     REROLL_STAT_UNTIL = { 
         ["Damage"] = "Z", 
         ["Defense"] = "SS", 
@@ -40,9 +42,7 @@ getgenv().sailorPieceConfig = {
         ["Strongest In History"] = { "Fortune Chosen" }, 
         ["Ichigo"] = { "Fortune Chosen", "Executioner", "Rampage", "Damage V", "Damage IV" } 
     },
-    REROLL_POWER_UNTIL = { "Subjugator" },
-    REROLL_BLOODLINE_UNTIL = { "Primordial" },
- 
+
     -- Artifact
     DELETE_ARTIFACT_RARITY = { "Common" },
     EQUIP_ARTIFACT_SET = "Abyssal Crown",
