@@ -67,8 +67,6 @@ getgenv().sailorPieceConfig = {
 
     "Adamantite",
 
-    "Passive Shard",
-
     "Power Shard",
 
     "Vampire Omen",
