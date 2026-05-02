@@ -14,7 +14,7 @@ getgenv().sailorPieceConfig = {
     MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
     AUTO_FARM = { "Great Mage Boss", "Cosmic Being", "The World Boss", "True Manipulator Boss", "Corrupted Knight Boss", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss", "IceQueenBoss" },  -- Auto farm ascend/quest/weapon bosses 
-    SUMMON_BOSS = { "Ice Queen Normal", "Ice Queen Normal", "Ice Queen Normal", "Ice Queen Normal", "Great Mage Normal", "Ichigo Normal"" },  -- Auto summon ascend/quest/weapon bosses
+    SUMMON_BOSS = { "Ice Queen Normal", "Ice Queen Normal", "Ice Queen Normal", "Ice Queen Normal", "Great Mage Normal", "Ichigo Normal" },  -- Auto summon ascend/quest/weapon bosses
  
     -- Weapons
     -- Auto detect + equip BEST DPS Weapon + Damage Build for dungeon/inf tower/high hp bosses
