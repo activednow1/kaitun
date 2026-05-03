@@ -17,6 +17,8 @@ getgenv().sailorPieceConfig = {
 
     "Clan Reroll",
 
+    "Bloodline Stone",
+
     "Relic Part #1",
 
     "Relic Part #2",
