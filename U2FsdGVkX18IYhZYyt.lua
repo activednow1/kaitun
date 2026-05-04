@@ -1,5 +1,5 @@
 script_key="TNKqRPVddeXbUfXarbqmEKcjEsrgfNYh";
-setfpscap(10)
+setfpscap(25)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
