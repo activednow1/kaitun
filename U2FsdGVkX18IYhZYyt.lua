@@ -3,7 +3,7 @@ setfpscap(10)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
-    WORLD = "Sea 2",  -- "Sea 1", "Sea 2" (Sea 2 ascension 5+ required)
+    WORLD = "Sea 1",  -- "Sea 1", "Sea 2" (Sea 2 ascension 5+ required)
     ASCEND_UNTIL_LEVEL = 5,
     AUTO_CELESTIAL_FAVOR_TITLE = true, -- Auto attack 5000 island bosses
     AUTO_BOSS_RUSH_AND_INFINITE_TOWER_STAT_BONUS = false,
@@ -13,8 +13,8 @@ getgenv().sailorPieceConfig = {
     -- MULTI_FARM -> Instant tp kill npc
     MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
-    AUTO_FARM = { "Great Mage Boss", "Cosmic Being", "The World Boss", "True Manipulator Boss", "Strongest Shinobi Boss", "Corrupted Knight Boss", "Yamato", "The World Boss", "Cosmic Being Boss", "TheWorldBoss", "CosmicBeingBoss" },  -- Auto farm ascend/quest/weapon bosses 
-    SUMMON_BOSS = { "Ice Queen Normal", "Great Mage Normal", "Moon Slayer Normal", "Ichigo Normal", "Saber Normal", "AtomicBoss Normal", "Atomic Normal", "Saber Alter Normal", "SaberAlter Normal", "True Aizen Normal" , "TrueAizen Normal", "Strongest in History Normal", "StrongestinHistory Normal", "Strongest of Today Normal", "StrongestofToday Normal", "True Manipulator Normal" },  -- Auto summon ascend/quest/weapon bosses
+    AUTO_FARM = { "IceQueenBoss"  },  -- Auto farm ascend/quest/weapon bosses 
+    SUMMON_BOSS = { "Ice Queen Normal", "Ice Queen Medium" },  -- Auto summon ascend/quest/weapon bosses
  
     -- Weapons
     -- Auto detect + equip BEST DPS Weapon + Damage Build for dungeon/inf tower/high hp bosses
