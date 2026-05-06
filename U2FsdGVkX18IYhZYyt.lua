@@ -3,7 +3,7 @@ setfpscap(25)
 
 getgenv().sailorPieceConfig = {  
     AUTO_UPDATE_RESTART = true,
-    WORLD = "Sea 2",  -- "Sea 1", "Sea 2" (Sea 2 ascension 5+ required)
+    WORLD = "Sea 1",  -- "Sea 1", "Sea 2" (Sea 2 ascension 5+ required)
     ASCEND_UNTIL_LEVEL = 5,
     AUTO_CELESTIAL_FAVOR_TITLE = true, -- Auto attack 5000 island bosses
     AUTO_BOSS_RUSH_AND_INFINITE_TOWER_STAT_BONUS = false,
