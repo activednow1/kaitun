@@ -15,8 +15,6 @@ getgenv().sailorPieceConfig = {
 
     "Secret Chest",
 
-    "Clan Reroll",
-
     "Bloodline Stone",
 
     "Relic Part #1",
