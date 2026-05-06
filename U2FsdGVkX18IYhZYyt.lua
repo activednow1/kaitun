@@ -73,8 +73,6 @@ getgenv().sailorPieceConfig = {
 
     "Adamantite",
 
-    "Passive Shard",
-
     "Power Shard",
 
     "Spell Echo",
