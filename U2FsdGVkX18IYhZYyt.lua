@@ -11,7 +11,7 @@ getgenv().sailorPieceConfig = {
     -- Autofarm
     DO_REPEATABLE_QUEST = "QuestNPC23",
     -- MULTI_FARM -> Instant tp kill npc
-    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime", "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
+    MULTI_FARM = { "FastNinja", "StrongBandit", "StrongFighter", "Delinquent", "Bunny", "ArenaFighter", "Ninja", "Swordsman", "AcademyTeacher", "Slime" ,"Quincy" , "StrongSorcerer", "Curse", "Hollow", "Sorcerer", "FrostRogue", "DesertBandit", "Monkey", "Thief" },  
     -- Ascend/Quest/Weapon Requirements will auto summon + attack
     AUTO_FARM = {},  -- Npc names
     SUMMON_BOSS = {},  -- Boss npc names
