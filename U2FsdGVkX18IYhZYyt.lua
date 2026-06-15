@@ -1,115 +1,107 @@
-script_key="TNKqRPVddeXbUfXarbqmEKcjEsrgfNYh";
-setfpscap(10)
+script_key="PHosHIdjbOjQDHHpGygOKBQyjgVSnQXP";
+getgenv().GAG2Config = {
+    FPS_CAP = 5,
+    AUTO_UPDATE_RESTART = true,
 
-getgenv().sailorPieceConfig = {  
-    OPTIMIZATION = true,  -- true = optimize + show ui, false = disable ui
-    AUTO_KICK = true,  -- Autokick if no TRADE_ITEM items left
-    KICK_IF_NO_TRADE_USERNAME = false,
-    TRADE_SEA_1 = true,
-   TRADE_USERNAME = { "petanimaximal42", "petanimaximal43", "petanimaximal44", "petanimaximal45", "petanimaximal46", "petanimaximal47" },  -- "Username"
-    TRADE_ITEM = {
+    BUY_PET = {  -- ["Pet Name"] = Amount
+        ["Monkey"] = 99, 
+        ["Bee"] = 99, 
+        ["BlackDragon"] = 99, 
+        ["GoldenDragonfly"] = 99, 
+        ["Unicorn"] = 99, 
+        ["Raccoon"] = 99, 
+        ["IceSerpent"] = 99,
 
-    "Aura Crate",
+        ["Robin"] = 5,
+        ["Deer"] = 5,
+    },
 
-    "Cosmetic Crate",
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+        {"Unicorn", 5, 1}, 
+        {"GoldenDragonfly", 10, 2},
+        {"Robin", 5, 3},
+        {"Deer", 5, 4},
+    },
 
-    "Secret Chest",
+    PLANT_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 50, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 50,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 100,
+        ["Corn"] = 4,
+        ["Cactus"] = 4,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 100,
+        ["Green Bean"] = 100,
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+        ["Moon Bloom"] = 50,
+        ["Dragon's Breath"] = 50,
+    },
 
-    "Bloodline Stone",
+    BUY_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 9999, 
+        ["Strawberry"] = 9999,
+        ["Blueberry"] = 9999,
+        ["Tulip"] = 9999,
+        ["Tomato"] = 9999,
+        ["Apple"] = 9999,
+        ["Bamboo"] = 9999,
+        ["Corn"] = 9999,
+        ["Cactus"] = 9999,
+        ["Pineapple"] = 9999,
+        ["Mushroom"] = 9999,
+        ["Green Bean"] = 9999,
+        ["Banana"] = 9999,
+        ["Grape"] = 9999,
+        ["Coconut"] = 9999,
+        ["Mango"] = 9999,
+        ["Dragon Fruit"] = 9999,
+        ["Acorn"] = 9999,
+        ["Cherry"] = 9999,
+        ["Sunflower"] = 9999,
+        ["Venus Fly Trap"] = 9999,
+        ["Pomegranate"] = 9999,
+        ["Poison Apple"] = 9999,
+        ["Moon Bloom"] = 9999,
+        ["Dragon's Breath"] = 9999,
+    },
 
-    "Relic Part #1",
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
+    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
 
-    "Relic Part #2",
+    SELL_ALL_DELAY = 20,
+    EXPAND_PLOT = true,
+    BUY_GEAR = {},  -- ["Gear Name"] = Amount
+    BUY_CRATE = {},  -- ["Crate Name"] = Amount
+    USE_SPRINKLER = {},  -- "Sprinkler Name"
 
-    "Relic Part #3",
+    -- Auto Mail
+    AUTO_MAIL_USERNAME = {},  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
+    COLLECT_MAIL = true,
 
-    "Relic Part #4",
-
-    "Relic Part #5",
-
-    "Relic Part #6",
-
-    "Relic Part #7",
-
-    "Relic Part #8",
-
-    "Frost Relic",
-
-    "Glacier Remnant",
-
-    "Battle Shard",
-
-    "Ice Core",
-
-    "Cosmic Essence",
-
-    "Easter Key",
-
-    "Easter Egg",
-
-    "Void Seed",
-
-    "Monster Pulse",
-
-    "Soul Flame",
-
-    "Mythical Chest",
-
-    "Guild Key",
-
-    "Crystal Key",
-
-    "World Core",
-
-    "Galaxy Shard",
-
-    "Star Mark",
-
-    "Dominion Brand",
-
-    "Crescent Shard",
-
-    "Corruption Core",
-
-    "Corrupt Crown",
-
-    "Upper Seal",
-
-    "Time Remnant",
-
-    "Adamantite",
-
-    "Power Shard",
-
-    "Spell Echo",
-
-    "Ancient Fragment",
-
-    "Mana Core",
-
-    "Magic Essence",
-
-    "Yamato Essence",
-
-    "Atomic Core",
-
-    "Blood Ring",
-
-    "Lunar Essence",
-
-    "Divine Grail",
-
-    "Magic Essence",
-
-    "Vampire Omen",
-
-},
-
-    WEBHOOK_URL = "",
+    -- Discord
+    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1516150404575137933/XLv3AmPU-N3sY_f1zoQncNgrsnretqGSWVHBO3g4hE_BI7zYS2wR2gpIxQwbOTFynRwb",
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "vps1",
-    SHOW_WEBHOOK_USERNAME = true,
-    SHOW_WEBHOOK_JOBID = true,
+    WEBHOOK_NOTE = "",  -- Private Webhook
+    SHOW_PUBLIC_DISCORD_ID = true,
+    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/eb9a467b35fe098d20677eb16ec559a4.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
