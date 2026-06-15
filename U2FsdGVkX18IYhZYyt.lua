@@ -83,6 +83,7 @@ getgenv().GAG2Config = {
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
 
     SELL_ALL_DELAY = 20,
+    FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
     EXPAND_PLOT = true,
     BUY_GEAR = {},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
@@ -96,7 +97,7 @@ getgenv().GAG2Config = {
     -- Discord
     WEBHOOK_PET_NAME = {},
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1516150404575137933/XLv3AmPU-N3sY_f1zoQncNgrsnretqGSWVHBO3g4hE_BI7zYS2wR2gpIxQwbOTFynRwb",
+    WEBHOOK_URL = "",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Private Webhook
     SHOW_PUBLIC_DISCORD_ID = true,
