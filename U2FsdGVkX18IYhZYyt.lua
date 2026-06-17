@@ -1,4 +1,4 @@
-script_key="";
+script_key="PHosHIdjbOjQDHHpGygOKBQyjgVSnQXP";
 getgenv().GAG2Config = {
     FPS_CAP = 5,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
