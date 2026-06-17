@@ -1,108 +1,12 @@
 script_key="PHosHIdjbOjQDHHpGygOKBQyjgVSnQXP";
 getgenv().GAG2Config = {
-    FPS_CAP = 5,
-    AUTO_UPDATE_RESTART = true,
+    AUTO_REPEAT = true,  -- true = repeat script forever
 
-    BUY_PET = {  -- ["Pet Name"] = Amount
-        ["Monkey"] = 99, 
-        ["Bee"] = 99, 
-        ["BlackDragon"] = 99, 
-        ["GoldenDragonfly"] = 99, 
-        ["Unicorn"] = 99, 
-        ["Raccoon"] = 99, 
-        ["IceSerpent"] = 99,
+    COLLECT_MAIL = false,
+    COLLECT_MAIL_DELAY = 5,
 
-        ["Robin"] = 5,
-        ["Deer"] = 5,
-    },
-
-    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
-        {"Unicorn", 5, 1}, 
-        {"GoldenDragonfly", 10, 2},
-        {"Robin", 5, 3},
-        {"Deer", 5, 4},
-    },
-
-    PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 50, 
-        ["Strawberry"] = 4,
-        ["Blueberry"] = 4,
-        ["Tulip"] = 50,
-        ["Tomato"] = 4,
-        ["Apple"] = 4,
-        ["Bamboo"] = 200,
-        ["Corn"] = 4,
-        ["Cactus"] = 4,
-        ["Pineapple"] = 4,
-        ["Mushroom"] = 200,
-        ["Green Bean"] = 200,
-        ["Banana"] = 50,
-        ["Grape"] = 50,
-        ["Coconut"] = 50,
-        ["Mango"] = 50,
-        ["Dragon Fruit"] = 50,
-        ["Acorn"] = 50,
-        ["Cherry"] = 50,
-        ["Sunflower"] = 50,
-        ["Venus Fly Trap"] = 50,
-        ["Pomegranate"] = 50,
-        ["Poison Apple"] = 50,
-        ["Moon Bloom"] = 50,
-        ["Dragon's Breath"] = 50,
-    },
-
-    BUY_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 9999, 
-        ["Strawberry"] = 9999,
-        ["Blueberry"] = 9999,
-        ["Tulip"] = 9999,
-        ["Tomato"] = 9999,
-        ["Apple"] = 9999,
-        ["Bamboo"] = 9999,
-        ["Corn"] = 9999,
-        ["Cactus"] = 9999,
-        ["Pineapple"] = 9999,
-        ["Mushroom"] = 9999,
-        ["Green Bean"] = 9999,
-        ["Banana"] = 9999,
-        ["Grape"] = 9999,
-        ["Coconut"] = 9999,
-        ["Mango"] = 9999,
-        ["Dragon Fruit"] = 9999,
-        ["Acorn"] = 9999,
-        ["Cherry"] = 9999,
-        ["Sunflower"] = 9999,
-        ["Venus Fly Trap"] = 9999,
-        ["Pomegranate"] = 9999,
-        ["Poison Apple"] = 9999,
-        ["Moon Bloom"] = 9999,
-        ["Dragon's Breath"] = 9999,
-    },
-
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
-    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
-
-    SELL_ALL_DELAY = 20,
-    FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
-    EXPAND_PLOT = 2,  -- 0 = No expand, 3 = expand plot 3 times
-    BUY_GEAR = {},  -- ["Gear Name"] = Amount
-    BUY_CRATE = {},  -- ["Crate Name"] = Amount
-    USE_SPRINKLER = {},  -- "Sprinkler Name"
-
-    -- Auto Mail
-    AUTO_MAIL_USERNAME = {"KavipumaHidaf"},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 999, ["Gold"] = 999, ["Cactus"] = 999, ["Corn"] = 999}, ["Robin"] = 999}, ["Bee"] = 999},   -- ["Item Name"] = Amount
-    COLLECT_MAIL = true,
-
-    -- Discord
-    WEBHOOK_PET_NAME = {},
-    WEBHOOK_PET_RARITY = { "Legendary", "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1516150404575137933/XLv3AmPU-N3sY_f1zoQncNgrsnretqGSWVHBO3g4hE_BI7zYS2wR2gpIxQwbOTFynRwb",
-    DISCORD_ID = "",
-    WEBHOOK_NOTE = "",  -- Private Webhook
-    SHOW_PUBLIC_DISCORD_ID = true,
-    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
-    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
+    AUTO_MAIL_USERNAME = { "KavipumaHidaf" },  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = { ["Rainbow"] = 1}, ["Gold"] = 1 }, ["Cactus"] = 1 }, ["Corn"] = 1 }, ["Robin"] = 1 }, ["Bee"] = 1 },   -- ["Item Name"] = Amount
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2d93cbb908797e55d10bd95a674e7e3b.lua"))()
