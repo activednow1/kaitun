@@ -91,7 +91,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = {"KavipumaHidaf",},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 1, ["Cactus"] = 1, ["Corn"] = 1, ["Robin"] = 1, ["Bee"] = 1, ["Mushroom"] = 1},   -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 1, ["Robin"] = 1, ["Bee"] = 1, ["Mushroom"] = 1},   -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
