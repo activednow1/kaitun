@@ -1,6 +1,6 @@
-script_key="PHosHIdjbOjQDHHpGygOKBQyjgVSnQXP";
+script_key="";
 getgenv().GAG2Config = {
-    FPS_CAP = 5,
+    FPS_CAP = 5,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
@@ -82,6 +82,7 @@ getgenv().GAG2Config = {
     COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
 
+    SELL_ALL_DAILY_DEAL = true,
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
     EXPAND_PLOT = 2,  -- 0 = No expand, 3 = expand plot 3 times
@@ -91,7 +92,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = {"KavipumaHidaf",},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 1, ["Robin"] = 1, ["Bee"] = 1, ["Mushroom"] = 1},   -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 1, ["Monkey"] = 1, ["Robin"] = 1, ["Bee"] = 1, ["Mushroom"] = 1},   -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
