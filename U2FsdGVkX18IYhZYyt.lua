@@ -30,12 +30,12 @@ getgenv().GAG2Config = {
         ["Tulip"] = 50,
         ["Tomato"] = 4,
         ["Apple"] = 4,
-        ["Bamboo"] = 100,
+        ["Bamboo"] = 200,
         ["Corn"] = 4,
         ["Cactus"] = 4,
         ["Pineapple"] = 4,
-        ["Mushroom"] = 100,
-        ["Green Bean"] = 100,
+        ["Mushroom"] = 200,
+        ["Green Bean"] = 200,
         ["Banana"] = 50,
         ["Grape"] = 50,
         ["Coconut"] = 50,
@@ -84,20 +84,20 @@ getgenv().GAG2Config = {
 
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
-    EXPAND_PLOT = true,
+    EXPAND_PLOT = 2,  -- 0 = No expand, 3 = expand plot 3 times
     BUY_GEAR = {},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     -- Auto Mail
-    AUTO_MAIL_USERNAME = { "KavipumaHidaf" },  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = { ["Rainbow"] = 1, ["Gold"] = 1 }, ["Cactus"] = 1 }, ["Corn"] = 1 }, ["Robin"] = 1 }, ["Bee"] = 1 },   -- ["Item Name"] = Amount
+    AUTO_MAIL_USERNAME = {"KavipumaHidaf"},  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 999, ["Gold"] = 999, ["Cactus"] = 999, ["Corn"] = 999}, ["Robin"] = 999}, ["Bee"] = 999},   -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
     WEBHOOK_PET_NAME = {},
-    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "",
+    WEBHOOK_PET_RARITY = { "Legendary", "Mythic", "Super", "Secret" },
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1516150404575137933/XLv3AmPU-N3sY_f1zoQncNgrsnretqGSWVHBO3g4hE_BI7zYS2wR2gpIxQwbOTFynRwb",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Private Webhook
     SHOW_PUBLIC_DISCORD_ID = true,
